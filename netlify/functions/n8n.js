@@ -21,10 +21,8 @@ exports.handler = async function () {
   }
 
   return {
-    statusCode: 302,
-    headers: {
-      Location: "/webhook"
-    }
+    statusCode: 200,
+    body: "n8n iniciado"
   };
 
 };
